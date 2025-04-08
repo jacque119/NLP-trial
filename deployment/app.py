@@ -1,5 +1,5 @@
 import streamlit as st
-from pred import predict_sentiment
+from predictions import predict_sentiment
 from eda import show_eda
 
 st.set_page_config(page_title="IMDB Sentiment Analyzer", layout="centered")
