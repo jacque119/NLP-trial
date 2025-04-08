@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
 
 # Load model and tokenizer
-model = load_model("best_model.keras")
+model = load_model("best_model.h5")
 with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
